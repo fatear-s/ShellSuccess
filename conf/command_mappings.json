@@ -1,0 +1,29 @@
+{
+  "vim": {
+    "linux": "vim",
+    "darwin": "vim"
+  },
+  "nslookup": {
+    "windows": "ipconfig",
+    "linux": "ifconfig",
+    "darwin": "ifconfig"
+  },
+  "ls": {
+    "darwin": "ls"
+  },
+  "ping": {
+    "darwin": "ping"
+  },
+  "pwd": {
+    "darwin": "pwd"
+  },
+  "cd": {
+    "darwin": "cd"
+  },
+  "pip": {
+    "darwin": "pip"
+  },
+  "java": {
+    "darwin": "java"
+  }
+}
