@@ -228,7 +228,7 @@ if __name__ == "__main__":
     import argparse
 
     parser = argparse.ArgumentParser(description="跨平台命令行执行器")
-    parser.add_argument("--api_key",default="sk-b7fde34ee20840e49d1c8ff661e43789", help="DeepSeek API密钥")
+    parser.add_argument("--api_key",default="", help="DeepSeek API密钥")
     args = parser.parse_args()
 
     executor = DeepSeekCLIExecutor(api_key=args.api_key)
